@@ -107,6 +107,10 @@
   }
 }
 
+.logo-container:hover{
+  filter: brightness(0) invert(1);
+}
+
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
